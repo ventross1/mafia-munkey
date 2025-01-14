@@ -42,10 +42,13 @@ cílem hry je prozkoumat biomy na mapě a najít nové lokace, získat nové sch
 
 přinést zážitek, který kombinuje prozkoumávání s rychlými souboji. Hra bude mít podobnou atmosféru jako hollow knight, ale s unikátními prvky
 
-### grafika:
+### grafika
 
-Pro grafiku jsem použil asesprite, protože moje hra má styl pixelartu. Důvod pro vybrání asespritu je jednoduchý, je to dedikovaný engine pro pixelart (má to funkce, které ostatní kreslící programy nemají), je to hodně malý velikostně jenom to zabírá 1.5gb oproti photoshopu, který zabírá o dost více místa a výkon tohle je pro mě důležitý, protože já většinou dělám tuto hru na notebooku.
+Pro grafiku jsem zvolil asesprite, protože to je dedikovaný engine pro pixelart.
+asesprite má hodně výhod oproti ostatním kreslícím programům tředa proti photoshopu má o dost lepší výkon a je o hodně menší.
 
-### audio:
+### zvuky
 
-Pro audio jsem si vybral Bfxr skoro to stejný jako sfxr jenom tam má o trochu více možností. Jako test tohoto programu jsem skusil udělat zvuk pro skok a dash. Ty jsem dělal takovým způsobem, že jsem vybral jeden z předem daných presetů (pickup, shoot, explosion, atd.) a modifikoval jsem je.
+Pro zvuky jsem zvolil bxfr což je skoro to stejný jako sfxr jediný rozdíl je více možností v bxfr. Jako test tohoto programu jsem skusil udělat zvuky pro skok a dash.
+Pro skok už rovnou tam byl preset, kterej jsem použil jako baseline a snažil jsem se to udělat, aby to znělo lépe (všechny ty presety mají v sobě randomizer a jsou docela hodně highpitched).
+Pro dash jsem skusil to udělat z jump presetu, ale musel jsem ho o dost více zkrátit kvůli délce dashe.
