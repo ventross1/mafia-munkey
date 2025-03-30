@@ -39,3 +39,8 @@ stream = ExtResource("3_p0dwr")
 
 [node name="dash" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_buabr")
+
+[node name="WallJumpTrigger" type="RayCast2D" parent="."]
+target_position = Vector2(16, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
