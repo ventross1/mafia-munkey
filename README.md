@@ -52,3 +52,27 @@ asesprite má hodně výhod oproti ostatním kreslícím programům tředa proti
 Pro zvuky jsem zvolil bxfr což je skoro to stejný jako sfxr jediný rozdíl je více možností v bxfr. Jako test tohoto programu jsem skusil udělat zvuky pro skok a dash.
 Pro skok už rovnou tam byl preset, kterej jsem použil jako baseline a snažil jsem se to udělat, aby to znělo lépe (všechny ty presety mají v sobě randomizer a jsou docela hodně highpitched).
 Pro dash jsem skusil to udělat z jump presetu, ale musel jsem ho o dost více zkrátit kvůli délce dashe.
+
+### finální hra
+![finalni hra](screenshot.png)
+### Závěr
+Zhodnocení práce:
+
+Vývoj hry přinesl mnoho výzev, ale také cenné zkušenosti. Mezi největší úskalí patřilo:
+
+    Level design – pro mě bylo obtížné navrhnout celkově mapu, protože jsem nikdy nedělal mapu.
+
+    Movement - pro mě taky mi dalo zabrat pohyblivost a gravitace.
+
+Co se povedlo?
+
+✅ Úspěšně vytvořený základní prototyp s funkčními mechanikami.
+✅ Funkční restart
+✅ Připravené zvuky a animace.
+Co by se dalo zlepšit?
+
+🔹 Více nepřátel.
+🔹 Více levelů a pause screen.
+🔹 Hudba.
+
+Celkově byl projekt pro mě docela velkým úspěchem po prví jsem udělal něco více než jenom mini demo s godot iconou.
