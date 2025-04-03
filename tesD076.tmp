@@ -442,10 +442,10 @@ terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/0 = SubResource("TileSetAtlasSource_hlekh")
 
 [node name="Node2D" type="Node2D"]
-process_mode = 1
 
 [node name="player" parent="." instance=ExtResource("2_w8c1e")]
 position = Vector2(64, 23)
+speed = null
 gravity = 500
 jump = -320
 
@@ -472,14 +472,6 @@ metadata/_edit_lock_ = true
 [node name="spike" parent="." instance=ExtResource("5_x0bnq")]
 position = Vector2(538, 71)
 scale = Vector2(2.3, 2)
-
-[node name="spike6" parent="." instance=ExtResource("5_x0bnq")]
-position = Vector2(-673, -120)
-scale = Vector2(1.5, 2)
-
-[node name="spike7" parent="." instance=ExtResource("5_x0bnq")]
-position = Vector2(-1296, -120)
-scale = Vector2(1.5, 2)
 
 [node name="spike2" parent="." instance=ExtResource("5_x0bnq")]
 position = Vector2(-244, 523)
